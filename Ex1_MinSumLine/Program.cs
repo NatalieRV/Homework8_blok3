@@ -28,9 +28,9 @@ void FillArray(int[,] matr)
 void MinSum(int[,] matr)
 {
     int summa1 = 0;
-    for (int i = 0; i < matr.GetLength(0); i++)
+    for (int k = 0; k < matr.GetLength(1); k++)
     {
-        summa1 = summa1 + matr[i, 0];
+        summa1 = summa1 + matr[0, k];
     }
     int minSumma = summa1;
     int minLine = 1;
